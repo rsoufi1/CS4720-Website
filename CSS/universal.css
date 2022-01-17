@@ -1,0 +1,30 @@
+.navigation {
+  width: 100%;
+}
+
+.site-title {
+  display: inline-block;
+  width: 10%;
+}
+
+.site-links {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+}
+
+.site-links a,
+.site-links .assignments-dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
