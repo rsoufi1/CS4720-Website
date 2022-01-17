@@ -1,3 +1,13 @@
+html, body {
+  background: rgb(235,235,255);
+  background: linear-gradient(180deg, rgba(235,235,255,1) 0%, rgba(127,128,205,1) 100%);
+  height: 100%;
+  width: 100%;
+  margin: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
 .navigation {
   width: 100%;
 }
@@ -13,18 +23,14 @@
   text-align: center;
 }
 
-.site-links a,
-.site-links .assignments-dropdown {
+.site-links a{
   display: inline-block;
+  margin: 0px 16px;
+  text-decoration: none;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(254, 254, 254, 0.5);
 }
