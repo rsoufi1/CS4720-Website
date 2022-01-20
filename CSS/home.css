@@ -1,0 +1,118 @@
+.welcomeDiv {
+  height: 700px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.catImg {
+  display: inline-flex;
+  height: 700px;
+}
+
+.catImg img {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  padding: 48px;
+}
+
+.welcomeText {
+  display: inline-flex;
+  height: 700px;
+  width: 40%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.welcomeText-Title {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+  font-size: 32px;
+}
+
+.welcomeText-Body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: auto;
+  font-size: 18px;
+  padding-left: 48px;
+}
+
+.aboutMeDiv {
+  height: 700px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.aboutMeImg {
+  display: inline-flex;
+  height: 700px;
+}
+
+.aboutMeImg img {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  padding: 48px;
+}
+
+.aboutMeText {
+  display: inline-flex;
+  height: 700px;
+  width: 40%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.aboutMeText-Title {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+  font-size: 32px;
+}
+
+.aboutMeText-Body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 48px;
+}
+
+.aboutMeBtn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: auto;
+  font-size: 18px;
+  text-align: center;
+  background: rgb(69, 66, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 66, 141, 1) 0%,
+    rgba(128, 126, 196, 1) 100%
+  );
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 24px;
+  margin-left: 56px;
+  margin-right: 56px;
+  margin-top: 56px;
+}
+
+.assignmentsDiv {
+  display: inline-flex;
+  height: 700px;
+  width: 40%;
+  flex-direction: column;
+  margin: auto;
+}
